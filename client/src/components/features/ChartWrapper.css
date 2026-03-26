@@ -1,0 +1,14 @@
+.chart-container {
+  width: 100%;
+  margin-top: 8px;
+}
+
+/* Recharts tooltip override */
+.recharts-tooltip-wrapper {
+  outline: none !important;
+}
+
+.recharts-default-tooltip {
+  font-family: 'Inter', sans-serif !important;
+  font-size: 0.813rem !important;
+}
