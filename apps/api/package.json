@@ -1,13 +1,13 @@
 {
-  "name": "hackstarter-server",
+  "name": "@skillbridge/api",
   "version": "1.0.0",
   "description": "Hackathon starter backend — Express + MongoDB",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node --watch index.js"
-  },
+  "start": "node index.js",
+  "dev": "nodemon index.js"
+},
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
@@ -15,7 +15,8 @@
     "express": "^4.21.0",
     "jsonwebtoken": "^9.0.2",
     "mongodb-memory-server": "^11.0.1",
-    "mongoose": "^8.23.0"
+    "mongoose": "^8.23.0",
+    "nodemon": "^3.1.14"
   },
   "keywords": [],
   "author": "",

@@ -1,5 +1,15 @@
 {
-  "dependencies": {
-    "mongoose": "^9.3.3"
+  "name": "skillbridge-root",
+  "private": true,
+  "workspaces": [
+    "apps/api",
+    "apps/web",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently -s all -n \"API,WEB\" -c \"cyan,magenta\" --kill-others \"npm run dev -w @skillbridge/api\" \"npm run dev -w @skillbridge/web\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
   }
 }
