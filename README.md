@@ -1,5 +1,5 @@
 ````markdown
-# 🚀 SkillBridge — Autonomous Freelance Marketplace
+# SkillBridge 
 
 A professional, high-performance monorepo architecture built for the SkillBridge platform. Featuring a **React 19 + Vite** frontend and a robust **Express + MongoDB** backend.
 
